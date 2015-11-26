@@ -20,7 +20,9 @@ sites/*/private
 idMyGadget
 resume
 #
-# Ignore jmws themes (they are in their own separate repos)
+# Ignore jmws modules and themes (they are in their own separate repos)
 #
+modules/jmws
+themes/jmws
 sites/all/modules/jmws
 sites/all/themes/jmws
