@@ -24,5 +24,8 @@ resume
 #
 modules/jmws
 themes/jmws
+#
+# Old (for d7)
+#
 sites/all/modules/jmws
 sites/all/themes/jmws
