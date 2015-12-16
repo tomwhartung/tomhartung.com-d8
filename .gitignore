@@ -20,6 +20,10 @@ sites/*/private
 idMyGadget
 resume
 #
+# Ignore the experimental hugs module that is part of the jmws_hello_world repo
+#
+hugs
+#
 # Ignore jmws modules and themes (they are in their own separate repos)
 #
 modules/jmws
