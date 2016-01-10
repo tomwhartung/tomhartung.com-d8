@@ -8,6 +8,7 @@ tmp/
 #
 # Ignore configuration files that may contain sensitive information.
 #
+sites/default/RCS
 sites/*/*services*.yml
 sites/*/*settings*.php
 
