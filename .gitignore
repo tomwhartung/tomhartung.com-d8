@@ -11,6 +11,8 @@ tmp/
 sites/default/RCS
 sites/*/*services*.yml
 sites/*/*settings*.php
+sites/*/*settings.local.php-caching_enabled
+sites/*/*settings.local.php-no_caching
 
 # Ignore paths that contain user-generated content.
 sites/*/files
