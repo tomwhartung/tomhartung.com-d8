@@ -14,6 +14,18 @@ sites/*/*settings*.php*
 sites/*/*settings.local.php-caching_enabled
 sites/*/*settings.local.php-no_caching
 
+###
+### It would be nice to keep our images in git.
+### Drupal insists on getting images from a subdirectory of sites/default/files
+### But sites/default/files is full of files we do not want to keep in git.
+### So I tried the following settings to try to get this to work the way I want,
+###   but it didn't work.
+### Note to self: Don't try this again, just remember (uhg) to copy the files by hand!
+###
+### !/sites/default
+### /sites/default/files
+### !/sites/default/files/idmygadget/*
+
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
