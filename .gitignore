@@ -10,7 +10,7 @@ tmp/
 #
 sites/default/RCS
 sites/*/*services*.yml
-sites/*/*settings*.php
+sites/*/*settings*.php*
 sites/*/*settings.local.php-caching_enabled
 sites/*/*settings.local.php-no_caching
 
@@ -31,8 +31,3 @@ hugs
 #
 modules/jmws
 themes/jmws
-#
-# Old (for d7)
-#
-sites/all/modules/jmws
-sites/all/themes/jmws
