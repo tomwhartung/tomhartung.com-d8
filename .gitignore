@@ -6,8 +6,9 @@ tmp/
 /nbproject/
 
 #
-# Ignore configuration files that may contain sensitive information.
+# Ignore configuration files that may contain sensitive information or other customizations.
 #
+sites/development.services.yml
 sites/default/RCS
 sites/*/*services*.yml
 sites/*/*settings*.php*
