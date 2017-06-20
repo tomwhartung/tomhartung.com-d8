@@ -117,6 +117,14 @@ AddEncoding gzip svgz
   # For example if your site is at http://example.com/drupal uncomment and
   # modify the following line:
   # RewriteBase /drupal
+  ###
+  ### Tried using this directory to run the site in demo_sites/drupal/tomhartung.com-d8
+  ### This did not work, and it's not important enough for me to dive into it right now.
+  ### For additional details, including a few links found trying to get this to work,
+  ###   see the README.md file in the tomhartung.com repo:
+  ###   https://github.com/tomwhartung/tomhartung.com/blob/master/README.md
+  ###
+  ### RewriteBase /demo_sites/drupal/tomhartung.com-d8
   #
   # If your site is running in a VirtualDocumentRoot at http://example.com/,
   # uncomment the following line:
